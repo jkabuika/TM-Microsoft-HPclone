@@ -126,3 +126,7 @@ ul {
     text-transform: uppercase;
     font-weight: bold;
 }
+
+.home-cards a:hover {
+    margin-left: 10px;
+}
