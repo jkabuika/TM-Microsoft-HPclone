@@ -246,3 +246,17 @@ ul {
     margin-right: 30px;
     margin-bottom: 20px;
 }
+
+@media(max-width: 700px) {
+    .home-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .xbox .content p {
+        display: none;
+    }
+
+    .xbox .content h2 {
+        margin-bottom: 20px;
+    }
+}
