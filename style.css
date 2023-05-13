@@ -94,3 +94,10 @@ ul {
     margin-bottom: 20px;
 }
 
+.showcase h2, .showcase p {
+    margin-bottom: 10px;
+}
+
+.showcase .btn {
+    margin-top: 20px;
+}
