@@ -63,6 +63,15 @@ ul {
     margin-left: 20px;
 }
 
+.menu-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+}
+
 .btn {
     cursor: pointer;
     display: inline-block;
@@ -257,6 +266,28 @@ ul {
     }
 
     .xbox .content h2 {
+        margin-bottom: 20px;
+    }
+
+    .carbon .content {
+        width: 85%;
+    }
+
+    .links .links-inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 500px) {
+    .home-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .links .links-inner {
+        grid-template-columns: 1fr;
+    }
+
+    .links .links-inner ul {
         margin-bottom: 20px;
     }
 }
